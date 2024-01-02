@@ -1,0 +1,6 @@
+asn: as1.o Matrix.o
+	g++ -o asn as1.o Matrix.o
+as1.o: as1.cpp
+	g++ -c as1.cpp
+Matrix.o: Matrix.cpp
+	g++ -c Matrix.cpp
